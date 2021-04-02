@@ -1,13 +1,32 @@
 .centerhead {
-    float: left;
     text-align: center;
-    color: rgb(35, 111, 168);
+    color: rgb(71, 49, 1);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .headerdiv {
-    height: 200px;
+    height: 250px;
     width: auto;
-    background-image: url(images/Dog_laptop-1920x1050-1.jpg);
+    background-image: url(images/jeez2.png);
     background-size: cover;
     background-repeat: no-repeat;
+    border: 5px solid wheat;
+}
+
+.centdiv-wrapper {
+    border: 5px solid rgb(216, 58, 10);
+}
+
+#imgdv {
+    width: 100%;
+    height: 400px;
+    ;
+    object-fit: cover;
+}
+
+.centdiv1 {
+    float: left;
+    width: 49%;
+    height: 400px;
+    overflow: hidden;
 }
